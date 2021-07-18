@@ -2,14 +2,16 @@
 void main()
 {
 	int stair;
+	int k=0;
 	printf("Enter the number of stairs : ");
 	scanf("%d",&stair);
-	for(int i=0;i<=stair;i++)
+	while(k<stair)
 	{
-		for(int j=0;j<i;j++)
+		for(int i=0;i<=k;i++)
 		{
 			printf("01");
 		}
 		printf("\n");
+		k++;
 	}
 }
