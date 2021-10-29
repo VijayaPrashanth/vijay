@@ -1,0 +1,89 @@
+h1{
+	font-family: fantasy;
+	text-align: center;
+	background-color: burlywood;
+	color: black;
+	padding: 15px;
+}
+
+p{
+	font-family: sans-serif;
+	margin-left: 100px;
+	margin-right: 100px;
+	
+
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+  height: 30px;
+  text-align: center;
+  border-bottom: 10px solid #ded;
+}
+td{
+	font-family: serif;
+	font-size: 17px;
+  font-style: italic;
+}
+th{
+	background-color: darkkhaki;
+	font-style: bold;
+	font-family: inherit;
+	font-size: 19px;
+}
+
+tr:hover {background-color: skyblue;}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#para1
+{
+	background-color: mediumaquamarine;
+}
+
+#head2{
+	background-color: lightgrey;
+	padding: 10px;
+}
+
+#c1
+{
+	color: sienna;
+	text-align: center; 
+	background-color: lightgreen;
+}
+body {
+  background-color: whitesmoke;
+}
+ul{
+	list-style: none;
+}
+
+li{
+	display: inline;
+	margin: 130px;
+}
+
+li a{
+	color: white;
+	text-decoration: blink;
+	font-family: cursive;
+}
+
+li a:hover{
+	color: palegoldenrod; 
+	text-decoration: underline;
+	font-family: cursive;
+}
+
+footer{
+	background-color: bisque;
+	color: black;
+	text-align: center;
+}
+
+#foot1{
+	color: darkred;
+}
